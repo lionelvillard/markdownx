@@ -1,0 +1,17 @@
+{
+  "name": "markdownx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "bin/markdownx",
+  "scripts": {
+    "build": "docker build -t villardl/markdownx:latest .",
+    "push": "docker push villardl/markdownx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
