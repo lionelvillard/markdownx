@@ -5,7 +5,7 @@ Inconspicuous markdown extensions using comment directives.
 ## Usage
 
 ```sh
-$ docker run villardl/markdownx [-u] <file.md>
+$ docker run -v /local/path:/docker/path villardl/markdownx [-u] /docker/path/<file.md>
 ```
 
 where `-u` update `file.md` in place. 
