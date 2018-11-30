@@ -18,4 +18,4 @@ Directive:
 [//]#code(<file>, [<language>])
 ```
 
-[example](./test/include-code.md)
+[example](https://raw.githubusercontent.com/lionelvillard/markdownx/master/test/include-code.md)
